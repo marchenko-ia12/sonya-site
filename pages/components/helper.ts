@@ -1,5 +1,4 @@
 const importAll = (r: any) => {
-	console.log('r', r)
 	return r.keys().map(r);
 }
 

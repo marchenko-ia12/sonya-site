@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../../styles/main.module.css'
 import Header from "./header";
 import { ReactElement } from "react";
-import Link from "next/link";
+import Footer from "./footer";
 
 type LayoutPropsType = {
 	logo?: boolean,
@@ -21,9 +21,7 @@ const Layout = ({ children , logo = true}: LayoutPropsType): ReactElement => {
 			<main className={styles.main}>
 				{children}
 			</main>
-			<footer className={styles.footer}>
-				<Link href="mailto:makhsonsofya@gmail.com">makhsonsofya@gmail.com</Link>
-			</footer>
+			<Footer />
 		</div>
 	)
 }

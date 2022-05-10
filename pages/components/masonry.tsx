@@ -7,8 +7,6 @@ import styles from '../../styles/main.module.css'
 import 'react-medium-image-zoom/dist/styles.css'
 
 const MasonryGrid = () => {
-	console.log('images', images[0].default);
-
 	return (
 		<div className={styles.masonry}>
 			<ResponsiveMasonry columnsCountBreakPoints={{500: 1, 750: 2}}>

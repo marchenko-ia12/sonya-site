@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from '../../styles/main.module.css'
+import styles from '../../styles/main.module.css';
 import Head from "next/head";
 
 const Header = ({ logo = true }) => {
