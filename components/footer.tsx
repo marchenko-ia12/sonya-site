@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from '../styles/main.module.css';
 
-const Footer = ({ logo = true }) => {
+const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<span>ILLUSTRATIONS BY <Link href="https://www.behance.net/sonyamakhson">SONYA MAKHSON</Link></span>
