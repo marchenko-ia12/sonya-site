@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from '../../styles/main.module.css';
+import styles from '../styles/main.module.css';
 import Head from "next/head";
 
 const Header = ({ logo = true }) => {
@@ -12,12 +12,14 @@ const Header = ({ logo = true }) => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div className={styles.headerImage}>
-				<Image
-					src={logo ? '/head.jpg' : '/me.png'}
-					alt='header image'
-					width={logo ? 225 : 180}
-					height={180}
-				/>
+				<Link href="/">
+					<Image
+						src={logo ? '/head.jpg' : '/me.png'}
+						alt='header image'
+						width={logo ? 225 : 180}
+						height={180}
+					/>
+				</Link>
 			</div>
 			<div className={styles.navigation}>
 				<Link href="/">Portfolio</Link>

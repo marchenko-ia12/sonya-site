@@ -1,4 +1,4 @@
-import Layout from "./components/layout";
+import Layout from "../components/layout";
 import styles from '../styles/main.module.css'
 
 const About = () => {
