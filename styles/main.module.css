@@ -67,6 +67,16 @@
   max-width: 1000px;
 }
 
+.contacts {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 300;
+  margin: 8px;
+  width: 200px;
+  background: url(../public/brush.webp);
+}
+
 .footer {
   display: flex;
   flex-direction: column;
